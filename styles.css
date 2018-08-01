@@ -1,0 +1,124 @@
+
+/*About fonts: bold, 700; light, 300*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border-radius: 25px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+}
+input:focus {
+  outline: none;
+}
+header{
+  background-color: #404041;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 36px;
+}
+header span {
+  font-size: 48px;
+}
+h1 {
+  font-weight: 700;
+  color: #ED458B;
+  font-size: 48px;
+  margin: 0;
+}
+h1 span {
+  font-weight: 300;
+  color: #E6E7E8;
+}
+.guess {
+  background-color: #929497;
+  color: #FFFFFF;
+}
+.guess:hover {
+  background-color: #EB008B;
+}
+.clear {
+  background-color: #929497;
+  color: #FFFFFF;
+}
+.clear:hover {
+  background-color: #EB008B;
+}
+.player-guess {
+  border-style: solid;
+  display: block;
+  margin: 0 auto 36px;
+  width: 380px;
+  border-radius: 0px;
+  color: #E6E7E8;
+}
+.player-guess:focus {
+  color: black;
+  border-color: #E6E7E8;
+}
+::placeholder {
+  color: #E6E7E8;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.input-buttons {
+  display: block;
+  margin: 0 auto;
+  width: 380px;
+}
+.guess, .clear {
+  background-color: #D0D2D3;
+  color: #FFFFFF;
+  display: inline-block;
+  width: 168px;
+  border-color: #E6E7E8;
+  margin-right: 8px;
+  margin-bottom: 36px;
+}
+.guess:disabled, .clear:disabled {
+  background-color: #929497;
+}
+.guess {
+  float: left;
+}
+.clear {
+  float: right;
+}
+.not-display-phrase {
+  color: #404041;
+  font-size: 24px;
+  text-align: center;
+  height: 33px;
+}
+.display-phrase {
+  color: #404041;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0;
+}
+.display-number {
+  color: #EB008B;
+  font-size: 132px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+.reset {
+  background-color: #D0D2D3;
+  color: #FFFFFF;
+  width: 380px;
+  border-color: #E6E7E8;
+  display: block;
+  margin: 36px auto 0;
+  
+}
+.reset:hover {
+  background-color: #EB008B;
+}
